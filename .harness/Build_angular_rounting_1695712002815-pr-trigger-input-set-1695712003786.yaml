@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_angular_rounting_1695712002815-pr-trigger-input-set
+  identifier: Build_angular_rounting_1695712002815prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_angular_rounting_1695712002815
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
